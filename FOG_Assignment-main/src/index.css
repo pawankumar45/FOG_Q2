@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Matrix';
+  src: url('/path-to-matrix-font.ttf') format('truetype');
+}
+
+::selection {
+  background: rgba(0, 255, 0, 0.3);
+  color: #0f0;
+}
